@@ -7,14 +7,25 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-button (click)="clicou(1)">
+    Botão 1
+  </ion-button>
+  <ion-button (click)="clicou(2)">
+    Botão 2
+  </ion-button>
+  <ion-button (click)="clicou(3)">
+    Botão 3
+  </ion-button>
+  <ion-button (click)="clicou(4)">
+    Botão 4
+  </ion-button>
+  <ion-button (click)="clicou(5)">
+    Botão 5
+  </ion-button>
+  <ion-button (click)="mostrarSelecionadas()">
+    Mostrar Selecionadas
+  </ion-button>
+  <ion-button (click)="passarPraSegundaTela()">
+    Segunda Tela >
+  </ion-button>
 </ion-content>
